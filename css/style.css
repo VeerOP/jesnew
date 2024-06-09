@@ -1,6 +1,8 @@
 ********* Template CSS *********
 html{
-    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: Cinzel, "Palatino Linotype", sans-serif;
@@ -80,11 +82,11 @@ ol li{
 
 /*** Navbar ***/
 .nav-bar {
-    position: sticky;
+    position: absolute;
     padding: 0 3rem;
     transition: .5s;
     z-index: 9999;
-    top: 0;
+    
 }
 .marqueestrip{
     margin-top: 5px;
@@ -214,7 +216,7 @@ ol li{
 
 @media (max-width: 1080px) {
     .carousel {
-        left: 25px;
+        /* left: 25px; */
     }
     
 }
@@ -385,8 +387,8 @@ iframe{
 /*** Testimonial ***/
 .carousel{
     margin-top: 30px;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
     box-sizing: border-box;
 }
 .slide{
