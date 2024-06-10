@@ -5,10 +5,10 @@ html{
     margin: 0;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: Cinzel, "Palatino Linotype", sans-serif !important; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important; 
 }
 body{
-    font-family: Cinzel, "Palatino Linotype", sans-serif !important; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important; 
 }
 :root {
     --primary: rgb(92, 14, 14);
