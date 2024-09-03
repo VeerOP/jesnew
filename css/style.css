@@ -338,6 +338,7 @@ iframe{
 
 .property-item {
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    width: max-content;
 }
 
 .property-item img {
