@@ -1,11 +1,12 @@
 ********* Template CSS *********
 html{
     min-width:max-content;
-    padding: 0;
-    margin: 0;
-   
+    
 }
-*
+body{
+    padding: 0 !important;
+    margin: 0 !important;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important; 
 }
@@ -340,7 +341,7 @@ iframe{
 
 .property-item {
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
-    width: max-content;
+    width: fit-content;
 }
 
 .property-item img {
@@ -446,6 +447,7 @@ iframe{
 
 
 /*** Footer ***/
+
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;
@@ -575,3 +577,4 @@ iframe{
         margin-top: 50px;
     }
 }
+
